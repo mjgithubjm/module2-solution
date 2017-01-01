@@ -1,4 +1,5 @@
 body
 {
 	font-size: 130%;
+	background-color: blue;
 }
