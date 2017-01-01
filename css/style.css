@@ -2,6 +2,29 @@ body
 {
 	font-size: 130%;
 	font-family: Arial, Helvetica, sans-serif;
-	color: #0000ff;
-	font-style: italic;
+}
+
+@media (max-width: 767px) {
+	.section-sd {
+		width: 100%;
+		float: left;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.section-md1 {
+		width: 50%;
+		float: left;
+	}
+	.section-md2 {
+		width: 100%;
+		float: left;
+	}
+}
+
+@media (min-width: 992px) {
+	.section-ld {
+		width: 33%;
+		float: left;
+	}
 }
